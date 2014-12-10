@@ -31,8 +31,8 @@ if (!is.null(opt$help))
   }
 
 # Initialize defaults for opt
-if (is.null(opt$width))   { opt$width   = 1280 }
-if (is.null(opt$height))  { opt$height  = 960 }
+if (is.null(opt$width))   { opt$width   = 1400 }
+if (is.null(opt$height))  { opt$height  = 1050 }
 if (is.null(opt$indir))   { opt$indir  = "current"}
 if (is.null(opt$outfile)) { opt$outfile = file.path(opt$indir, "summary.png") }
 if (is.null(opt$ylabel1stgraph)) { opt$ylabel1stgraph = "Op/sec" }

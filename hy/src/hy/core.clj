@@ -23,4 +23,4 @@
 
 (defn -main
     []
-    (start-http-server (wrap-ring-handler app) {:port (Integer. 5000)}))
+    (start-http-server (wrap-ring-handler app) {:port (Integer. 5000) :max-threads 200 :min-threads 20}))
